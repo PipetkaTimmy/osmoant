@@ -15,7 +15,7 @@ const Footer = async () => {
   return (
     <section className="footer">
       <div className="footer__container">
-        <div className="footer__brand">
+        <div className="footer__brand footer__brand--desktop">
           <img src="/logos/osmo.png" alt="" />
         </div>
 
@@ -30,6 +30,10 @@ const Footer = async () => {
               playsInline
             />
             <div className="footer__video-text">{videoText}</div>
+          </div>
+
+          <div className="footer__brand footer__brand--mobile">
+            <img src="/logos/osmo.png" alt="" />
           </div>
 
           <div className="footer__contacts">
